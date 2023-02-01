@@ -61,26 +61,46 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionNuevo">
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/Recursos/registro.png</normaloff>:/Recursos/registro.png</iconset>
+   </property>
    <property name="text">
     <string>Nuevo</string>
    </property>
   </action>
   <action name="actionGuardar">
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/Recursos/disquete.png</normaloff>:/Recursos/disquete.png</iconset>
+   </property>
    <property name="text">
     <string>Guardar</string>
    </property>
   </action>
   <action name="actionSalir">
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/Recursos/salida.png</normaloff>:/Recursos/salida.png</iconset>
+   </property>
    <property name="text">
     <string>Salir</string>
    </property>
   </action>
   <action name="actionColor">
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/Recursos/lapices-de-colores.png</normaloff>:/Recursos/lapices-de-colores.png</iconset>
+   </property>
    <property name="text">
     <string>Color</string>
    </property>
   </action>
   <action name="actionAncho">
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/Recursos/grosor-de-la-linea.png</normaloff>:/Recursos/grosor-de-la-linea.png</iconset>
+   </property>
    <property name="text">
     <string>Ancho</string>
    </property>
@@ -88,6 +108,10 @@
   <action name="actionLineas">
    <property name="checkable">
     <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/Recursos/boton-de-eliminacion-de-linea-horizontal.png</normaloff>:/Recursos/boton-de-eliminacion-de-linea-horizontal.png</iconset>
    </property>
    <property name="text">
     <string>Lineas</string>
@@ -97,6 +121,10 @@
    <property name="checkable">
     <bool>true</bool>
    </property>
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/Recursos/grafico-de-lineas.png</normaloff>:/Recursos/grafico-de-lineas.png</iconset>
+   </property>
    <property name="text">
     <string>Libre</string>
    </property>
@@ -105,6 +133,10 @@
    <property name="checkable">
     <bool>true</bool>
    </property>
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/Recursos/contorno-de-forma-geometrica-rectangular.png</normaloff>:/Recursos/contorno-de-forma-geometrica-rectangular.png</iconset>
+   </property>
    <property name="text">
     <string>Retángulos</string>
    </property>
@@ -112,6 +144,10 @@
   <action name="actionCircunferencias">
    <property name="checkable">
     <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="Resource.qrc">
+     <normaloff>:/Recursos/lavado-en-seco.png</normaloff>:/Recursos/lavado-en-seco.png</iconset>
    </property>
    <property name="text">
     <string>Circunferencias</string>

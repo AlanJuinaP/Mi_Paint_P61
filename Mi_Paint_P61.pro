@@ -25,3 +25,14 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     Resource.qrc
+
+DISTFILES += \
+    Recursos/boton-de-eliminacion-de-linea-horizontal.png \
+    Recursos/contorno-de-forma-geometrica-rectangular.png \
+    Recursos/disquete.png \
+    Recursos/grafico-de-lineas.png \
+    Recursos/grosor-de-la-linea.png \
+    Recursos/lapices-de-colores.png \
+    Recursos/lavado-en-seco.png \
+    Recursos/registro.png \
+    Recursos/salida.png
